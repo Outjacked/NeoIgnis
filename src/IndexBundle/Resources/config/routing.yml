@@ -1,0 +1,3 @@
+index_homepage:
+    path:     /epsi
+    defaults: { _controller: IndexBundle:Default:index }
