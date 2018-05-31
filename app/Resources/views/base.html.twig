@@ -9,29 +9,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ asset('style/css/bootstrap.css') }}">
         <link rel="stylesheet" href="{{ asset('style/css/base.css') }}">
+        <link rel="stylesheet" href="{{ asset('style/css/style.css') }}">
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
 
     </head>
     <body>
 
-      <div class="container">
-        <div class ="row">
+      <nav class="navbar navbar-light bg-light" style="margin-bottom: 0px;">
 
-          <div class="col-lg-12">
-            <h1>NeoIgnis</h1>
+          <div class="container-fluid">
+              <div class="row">
+                  <img class="col-xs-1" src="{{ asset('img/Logoo.svg') }}">
+                  <p class="col-lg-4"> NeoIgnis </p>
+                  <div class="PosCompte">
+                      <p class="col-lg-4"> Compte: </p>
+                      <img class="LogoCompte" src="{{ asset('img/logo_compte.png') }}">
+                  </div>
+                  <nav class="menu">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="#">Videos</a>
+                    <a class="navbar-brand" href="#">Music</a>
+                    <a class="navbar-brand" href="#">Art</a>
+                    <a class="navbar-brand" href="#">Memes</a>
+                  </nav>
+              </div>
           </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <nav class="menu">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <a class="navbar-brand" href="#">Videos</a>
-          <a class="navbar-brand" href="#">Music</a>
-          <a class="navbar-brand" href="#">Art</a>
-          <a class="navbar-brand" href="#">Memes</a>
-        </nav>
-      </div>
+      </nav>
 
       <div class="footer">
         <p>This is the Footer</p>

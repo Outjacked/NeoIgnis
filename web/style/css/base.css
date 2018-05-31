@@ -1,6 +1,16 @@
 div{
-  border-style: solid;
-  border-color: red;
+  background-color: grey;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
 }
 
 .footer {
@@ -11,4 +21,8 @@ div{
    background-color: red;
    color: white;
    text-align: center;
+}
+
+#content {
+  margin-top: 30px;
 }
